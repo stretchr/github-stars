@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github Stars</title>
+	<script src="github-stars.js"></script>
+</head>
+<body>
+	Checkout the console!
+<script>
+	console.log("No Callback: " + githubStars("stretchr"));
+	githubStars("stretchr", function(stars) {
+		console.log("Callback: " + stars);
+	});
+</script>
+</body>
+</html>
