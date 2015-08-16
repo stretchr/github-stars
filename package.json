@@ -1,0 +1,23 @@
+{
+  "name": "github-stars",
+  "version": "0.0.0",
+  "description": "Returns the aggregate number of stars for a user/org or single repo",
+  "main": "github-stars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stretchr/github-stars.git"
+  },
+  "keywords": [
+    "github",
+    "stars"
+  ],
+  "author": "Ryan (https://github.com/mazondo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stretchr/github-stars/issues"
+  },
+  "homepage": "https://github.com/stretchr/github-stars#readme"
+}
